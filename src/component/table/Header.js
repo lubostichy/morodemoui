@@ -5,16 +5,16 @@ class Header extends React.Component {
 		const thStyle = {
 			width: '40%'
 		}
-	return (
-		<thead>
-			<tr>
-				<th>Id</th>
-				<th style={thStyle}>Jméno</th>
-				<th style={thStyle}>Login</th>
-				<th>Akce</th>
-			</tr>
-		</thead>
-	);
+		return (
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th style={thStyle}>Jméno</th>
+					<th style={thStyle}>Login</th>
+					<th>Akce</th>
+				</tr>
+			</thead>
+		);
 	}
 }
 

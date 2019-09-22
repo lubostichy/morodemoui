@@ -29,30 +29,11 @@ class App extends React.Component {
       });
   }
 
-  // editUser(userId) {
-  //   superagent.get('http://localhost:8080/api/users/' + userId)
-  //     .then(res => {
-  //       const newUsers = this.state.users;
-  //       newUsers.forEach(function (user) {
-  //         if (user.id === userId) {
-  //           user = res.body;
-  //           console.log(user);
-  //         }
-  //       });
-  //       this.setState({
-  //         users: newUsers
-  //       })
-  //     });
-  // };
-
- 
-
   render() {
     return (
       <div className="App container" >
         <Table users={this.state.users} getUsers={this.getUsers.bind(this)} />
         <AddUser users={this.state.users} getUsers={this.getUsers.bind(this)} />
-
       </div>
     );
   };

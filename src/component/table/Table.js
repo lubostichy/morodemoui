@@ -9,7 +9,7 @@ class Table extends React.Component {
 			<div>
 				<table className="table">
 					<Header />
-					<Body users={this.props.users} getUsers={this.props.getUsers}/>
+					<Body users={this.props.users} getUsers={this.props.getUsers} />
 				</table>
 			</div>
 		);
