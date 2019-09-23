@@ -28,7 +28,7 @@ class Body extends React.Component {
 								<RowEdit user={user} key={index} getUsers={this.props.getUsers} changeEditMode={this.changeEditMode.bind(this)} /> :
 								<Row user={user} key={index} getUsers={this.props.getUsers} changeEditMode={this.changeEditMode.bind(this)} />
 						);
-					})) : <tr><td colSpan="2">Loading...</td></tr>}
+					})) : <tr><td colSpan="4">Loading...</td></tr>}
 			</tbody>
 		);
 	}
